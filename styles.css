@@ -83,7 +83,7 @@
   
 
   
-  .columns {
+  .columns-section {
     display: flex;
     gap: 1.5rem;
     padding: 2rem;
@@ -142,7 +142,7 @@
   }
   
   /*Status Dots */
-  .dot {
+  .todo-dot,.doing-dot,.done-dot {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -181,9 +181,6 @@
       margin-bottom: -2em;
     
     }
-
- 
-  
     .task {
       width: 100%;
       margin-bottom: 20px;
